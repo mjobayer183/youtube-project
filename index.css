@@ -82,7 +82,7 @@
 .side-navver-icon {
   background-color: #000;
   width: 100px;
-  height: 1000px;
+  height: 1500px;
 }
 .home-icon i {
   color: white;
@@ -151,6 +151,7 @@ padding:45px;
 .video-section{
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 
   
 
