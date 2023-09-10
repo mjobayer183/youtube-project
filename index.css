@@ -4,6 +4,10 @@
   font-family: sans-serif;
 }
 /* full  upper navver */
+header {
+  position: sticky;
+  top: 0;
+}
 .nav-container {
   display: flex;
   background: #000;
@@ -16,29 +20,54 @@
   padding: 12px;
   margin-left: 15px;
 }
+.nav-container .dot-icon:hover{
+  
+  background-color: rgb(23, 24, 24);
+}
+.nav-container .microphone-icon:hover{
+  
+  background-color: rgb(23, 24, 24);
+}
+.nav-container .create-icon:hover{
+  
+  background-color: rgb(23, 24, 24);
+}
+.nav-container .notification-icon:hover{
+  
+  background-color: rgb(23, 24, 24);
+}
+
 .youtube-icon img {
   width: 100%;
   height: 100%;
   margin-left: 20px;
 }
-.search-box {
-  padding: 5px;
+search {
   margin-left: 200px;
-}
-.search-box input {
-  width: 536px;
-  height: 40px;
+  background-color: #0f0f0f;
+  margin-top: 5px;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
-  background-color: #0e0b0b;
-  border: 2px solid #606061;
+}
+.search-box {
+  padding: 5px;
+}
+.search-box {
+  width: 536px;
+  height: 35px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border: none;
+  font-size: larger;
+  padding: 5px 12px;
+  background-color: #0f0f0f;
 }
 
-.search-box ::placeholder {
+/* .search-box ::placeholder {
   color: white;
   font-size: 20px;
   padding: 1px 0;
-}
+} */
 .search-icon {
   padding: 5px;
 }
@@ -46,7 +75,7 @@
   color: white;
   font-size: 30px;
   padding: 8px;
-  background: #0e0b0b;
+  background: #332d2d;
 }
 .microphone-icon {
   color: white;
@@ -127,41 +156,38 @@
 
 .container {
   display: flex;
-  
 }
 .under-navver {
   width: 100%;
   display: flex;
   justify-content: space-evenly;
   flex-direction: row;
-padding:45px;
-  
+  padding: 45px;
+  font-size: 20px;
 }
+.under-navver .text:hover{
+
+  background-color: rgb(57, 56, 56);
+  height: 20px;
+  border-radius: 2px solid white ;
+}
+
 .main-container {
   width: 100%;
   background: #000;
   color: white;
-  
-
-  
-  
 }
 /* vedio section */
 
-.video-section{
+.video-section {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-
-  
-
-
 }
-.box{
+.box {
   display: flex;
-
 }
-.box-img{
+.box-img {
   height: 330px;
   width: 450px;
   border-radius: 20px;
